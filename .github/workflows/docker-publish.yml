@@ -70,8 +70,7 @@ jobs:
           gcloud_service_key: ${{ secrets.GCP_SA_KEY }}
           registry: gcr.io
           project_id: core-nova
-          image_name: rovet-front-end
+          image_name: docker/rovet-front-end
           image_tag: latest
           dockerfile: ./Dockerfile
           context: .
-          target:
