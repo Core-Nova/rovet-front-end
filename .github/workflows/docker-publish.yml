@@ -48,3 +48,4 @@ jobs:
         with:
           service: rovet-front-end
           image: europe-west3-docker.pkg.dev/core-nova/docker/rovet-front-end:latest
+          region: europe-west3
